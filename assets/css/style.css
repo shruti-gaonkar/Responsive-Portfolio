@@ -235,8 +235,9 @@ button:active{
 
     .container{
         width: 95%;  
-        margin: 0 auto;
         overflow: hidden;
+        float:left;
+        margin-left:10px;
     }
 }
 
@@ -259,8 +260,9 @@ button:active{
 
     .container{
         width: 95%;  
-        margin: 0 auto;
         overflow: hidden;
+        float:left;
+        margin-left:10px;
     }
 
     #profile-image {
