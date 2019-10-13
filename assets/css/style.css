@@ -211,6 +211,35 @@ button:active{
     border-top: 6px solid #4aaaa5;
 }
 
+@media only screen and (max-width: 980px) {
+    .header-container{
+        width: 95%;  
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .container{
+        width: 65%;  
+        overflow: hidden;
+        float:left;
+        margin-left:20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-container{
+        width: 95%;  
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .container{
+        width: 95%;  
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     .header-container{
         width: 100%;  
