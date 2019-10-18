@@ -159,11 +159,11 @@ section{
     cursor: pointer;
 }
 
+/* Start - animation css for gallery */
+
 .view-first img { 
     transition: all 0.2s linear;
 }
-
-/* Start - animation css for gallery */
 
 .view-first .mask {
     opacity: 0;
