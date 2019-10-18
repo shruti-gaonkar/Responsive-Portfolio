@@ -133,26 +133,58 @@ section{
     margin: 5px 20px 10px 0;
 }
 
-.image-container {
-    position: relative;
+/* Start - animation css for gallery */
+
+.view {
     width: 200px;
-    margin: 0 20px 20px 0;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: pointer;
 }
 
-.image-container .text-block {
+.view .mask {
+    width: 200px;
     position: absolute;
-    background-color: #4aaaa5;
-    color: white;
-    bottom: 8px;
+    overflow: hidden;
+    top: 5px;
+    left: 0
+}
+
+.view p {
+    font-size: 1rem;
+    color: #fff;
     text-align: center;
-    width:80%;
+    position: relative;
+    background: #4aaaa5;
+    margin: 80px 0 0 0;
     line-height: 10px; 
     padding: 20px;
+    cursor: pointer;
 }
 
-.image-container:hover a {
-    opacity: 0.3;
+.view-first img { 
+    transition: all 0.2s linear;
 }
+
+.view-first .mask {
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.view-first:hover img { 
+	transform: scale(1.1);
+}
+
+.view-first:hover .mask { 
+	opacity: 1;
+}
+
+/* End - animation css for gallery */
 
 label{
     line-height: 1.5em;
@@ -246,6 +278,7 @@ button:active{
         width: 100%;  
         margin: 0 auto;
         overflow: hidden;
+        position: static;
     }
 
     .header-div{
