@@ -127,14 +127,6 @@ section{
     margin:20px 0 10px 0;
 }
 
-#profile-image{
-    float: left;
-    width: 200px;
-    margin: 5px 20px 10px 0;
-}
-
-/* Start - animation css for gallery */
-
 .view {
     width: 200px;
     margin: 10px;
@@ -170,6 +162,8 @@ section{
 .view-first img { 
     transition: all 0.2s linear;
 }
+
+/* Start - animation css for gallery */
 
 .view-first .mask {
     opacity: 0;
