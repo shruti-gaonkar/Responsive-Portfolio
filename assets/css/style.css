@@ -127,6 +127,14 @@ section{
     margin:20px 0 10px 0;
 }
 
+#profile-image{
+    float: left;
+    width: 200px;
+    margin: 5px 20px 10px 0;
+}
+
+/* Start - portfolio gallery css */
+
 .view {
     width: 200px;
     margin: 10px;
@@ -158,6 +166,8 @@ section{
     padding: 20px;
     cursor: pointer;
 }
+
+/* End - portfolio gallery css */
 
 /* Start - animation css for gallery */
 
